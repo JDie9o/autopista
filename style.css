@@ -1,0 +1,82 @@
+.card-link {
+  color: #C3C3C5;
+}
+
+.guion {
+  color: #C3C3C5;
+}
+
+#text {
+  font-family: Ferrovial New;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.1em;
+}
+
+.carousel-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#240D1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+#text{
+  text-align: justify;
+}
+#text .titulo {
+  font-family: Ferrovial New;
+  font-weight: 450;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  color: #000;
+}
+
+#text .parrafo {
+  font-family: Ferrovial New;
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: .25px;
+  line-height: 1.5556em;
+  color: #666;
+}
+#text2 h1 {
+  font-family: Ferrovial New;
+  font-weight: 450;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  color: #000;
+}
+
+#text2 p {
+  font-family: Ferrovial New;
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: .25px;
+  line-height: 1.5556em;
+  color: #666;
+}
+ul{
+  padding-left: 0%;
+  list-style: none;
+}
+ul li {
+  display: flex;
+  justify-content: left;
+}
+ul li::before {
+  margin-right:1px;
+  /* \2022 is the CSS Code/unicode for a disc */
+  content: "\2022";  
+  color: #FFC700; 
+  display: inline-block; 
+  padding-right: 10px;
+  font-size: 40px;
+  line-height: 25px;
+  vertical-align: -11px;
+}
+.decoredNone{
+  text-decoration: none;
+  font-family: Ferrovial New;
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: .25px;
+  line-height: 1.5556em;
+  color: #666;
+}
